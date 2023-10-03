@@ -154,7 +154,7 @@ function FancyTextGame() {
 
   return (
     <div>
-      <h1>Text-Based Adventure Game</h1>
+      <h1>NSS Adventure!</h1>
       <p>{currentSceneData.text}</p>
 
       {/* Render choices as buttons */}
