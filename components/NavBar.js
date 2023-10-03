@@ -9,7 +9,7 @@ export default function NavBar() {
       <div className="container-fluid">
         <Link passHref href="/">
           <a className="navbar-brand" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
-            CHANGE ME
+            HOME
           </a>
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,9 +19,16 @@ export default function NavBar() {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
-              <Link passHref href="/">
+              <Link passHref href="/game-class">
                 <a className="nav-link">
-                  Home
+                  Play Class-Based Game
+                </a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link passHref href="/game-function">
+                <a className="nav-link">
+                  Play Function Game
                 </a>
               </Link>
             </li>
