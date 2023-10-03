@@ -76,6 +76,7 @@ const scenes = {
     text: 'Allison is trying to figure out which company she is going to take over when she graduates, she has already turned down job applications from Eric and Charles.',
     choices: {
       west: 'room9',
+      north: 'room14',
       south: 'room6',
     },
   },
